@@ -1,0 +1,42 @@
+//import java.text.NumberFormat;
+
+
+public class Fatorial {
+	/*
+	 * Exemplo com recursividade.
+	public static void main(String[] args)
+	{
+		
+		NumberFormat nf = NumberFormat.getInstance();
+		for (int i = 1; i <= 20; i++)
+		{
+			System.out.println("O fatorial de " + i + " é " + nf.format(fat(i)));
+		}
+		
+	}
+	
+	public static long fat(long num)
+	{
+		
+		if (num <= 1)
+		{
+			return 1;
+		}
+		else
+		{
+			return num * fat(num - 1);
+		}
+	}*/
+	
+	// Exemplo sem recursividade.
+	public static void main(String[] args) {  
+	      int fatorial= 1 ;  
+	      int numero = 10;  
+	      for (int i = 1; i <= numero; i++) {  
+	            for (int j = i; j <= i; j++) {  
+	              fatorial = fatorial * i;  
+	            }  
+	            System.out.println("O fatorial de "+ i +" é " + fatorial);  
+	     }  
+	   } 
+}
